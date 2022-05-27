@@ -1,50 +1,35 @@
 @charset "UTF-8";
 
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    background-color: #B6F2EC;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);    
 }
 
 header {
-    background-image: linear-gradient(to bottom, #0597F2,#B6F2EC  );
-    min-height: 150px;
-    text-align: center;
-    padding-top: 50px;
-    
-   
-}
-
-header > h1 {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 3em;
-    text-shadow: 2px 2px 0px #02020275;
-}
-
-header > p{
-    color: white;
-    font-size: 1.5em;
-    max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin: auto;
-    text-shadow: 2px 2px 0px #02020275;
-}
-
-div#imagem-top {
-    max-width: 800px;
-    margin: auto;
-    padding: 5px;
+    background-image: linear-gradient(to bottom, #e2e2dd, #ffffff);
+    min-height: 150px;     
 }
 
 div img {
     width: 100%;
+}
+
+section > table#one, table#two, table#tree {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section > table#one {
+    margin-bottom: 10px;
+}
+
+section > legend {
+    text-align: center;
 }
 
 main {
@@ -52,80 +37,55 @@ main {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
-    background-color: #F2F2F2;
+    background-color:#E3E3E1 ;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #0597f2ad;
-    margin-bottom: 5px;
+    box-shadow: 0px 0px 10px #302d2ca9;
+    margin-bottom: 20px;
 }
 
-main h2 {
-    color: #0597F2;
+main h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    color: #F063F2;
+    text-shadow: 3px 3px 3px #161616;
+}
+
+caption {
     font-size: 1.5em;
-    font-weight: normal;
-    background-image: linear-gradient(to right,#FFDCBC, #d5f3f0 );
-    margin-bottom: 10px;
-
+    background-color: #BF6734;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
 }
 
-main h4 {
-    margin-top: 20px;
-    color: #0597F2;
+table#one, table#two, table#tree {
+    width: 407px;
+    border-collapse: collapse;    
 }
 
-main img {
-    width: 100%;
+table#one td, th, td{
+    border: 1px solid;
+    padding: 8px;
 }
 
-main p {
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
+th {
+    background-color:rgb(201, 193, 193) ;
 }
 
-main strong {
-    color: #0597F2;
+.verde {
+    background-color:rgb(8, 252, 8)  ;
 }
 
-main a {
-    text-decoration: none;
-    color: #07C7F2;
-    
-    
-}
-
-main a:hover {
-    color: #FFDCBC;
-    background-color:#07C7F2 ;
-    text-decoration: underline;
-}
-
-main ul {
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;    
-}
-
-aside {
-   
-    border-radius: 5px;
-    padding: 3px;   
-}
-
-aside#premio {
-    font-size: 1.5em;
-}
-
-section#regra {
-    background-color: #ffdcbc4d;        
-    border-radius: 10px;
-    padding: 0px 10px 10px 10px;
+.amarelo {
+    background-color:yellow ;
 }
 
 footer {
-    background-color: #0597F2;
+    background-color: #000000;
     text-align: center;
-    color: #FFDCBC;
+    color: #ffffff;
     font-size: 0.8em; 
     padding: 5px;   
 }
-
-
